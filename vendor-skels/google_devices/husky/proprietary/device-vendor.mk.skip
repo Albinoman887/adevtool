@@ -275,8 +275,27 @@ PRODUCT_PACKAGES += \
     libExynosC2Vp9Enc \
     libexynosutils \
     libexynosv4l2 \
+    libface_common_camera \
+    libface_common_capture \
+    libface_common_debug \
+    libface_common_fake_camera \
+    libface_common_frame \
+    libface_common_log \
+    libface_common_perf \
+    libface_common_task \
+    libface_common_thread \
+    libface_common_trustzone \
+    libface_common_user \
+    libface_common_user_proto \
+    libface_common_util \
+    libface_hal_trusty_tuscany \
+    libface_tuscany_cache_manager \
+    libface_tuscany_cache_proto \
     libface_tuscany_debug_manager \
     libface_tuscany_override_blob_manager \
+    libface_tuscany_proxy_util_trusty \
+    libface_tuscany_sensor_trusty \
+    libface_tuscany_trusty_debug_host \
     libfvsam_prm_parser \
     libgc2_bw_av1_dec \
     libgc2_bw_av1_enc \
@@ -387,6 +406,7 @@ PRODUCT_PACKAGES += \
     securedpud.slider \
     sensors.dynamic_sensor_hal \
     sensors.usf \
+    SettingsGoogleFutureFaceEnroll \
     ShannonIms \
     ShannonRcs \
     smartbatching \
